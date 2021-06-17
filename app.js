@@ -208,7 +208,6 @@ while
 we don't knw how any times the code will run but for sure weknow it will keep running as long as the condition is true 
 
 =======
->>>>>>> 6721e2c9bf0e33f40b16fc1ad864bc986eb9decb
 */
 var name = prompt("what is your name?")
 
@@ -228,29 +227,16 @@ while (favMovie != "harry potter" && favMovie != "fast and furious" && favMovie 
 
 
 if (favMovie == "fast and furious") {
-  var numOfPic = prompt("how many times you like to see fast and furious pix")
-
-  for (var x = 0; x < numOfPic; x++) {
+ 
+  
     document.write("<div>" + "<h3>" + "fast and furious" + "</h3>" +
       "<img  src='https://img.cinemablend.com/filter:scale/quill/a/2/0/5/4/a/a2054a28078bf01c678929806dc5be09096391a2.jpg?mw=600' >" +
       "</div>")
 
-  }
+  
 }
 else if (favMovie == "harry potter") {
 
-  var numberOfPicture = prompt("how many timess you want to see this movie")
-
-  for(var i =1 ; i<= numberOfPicture;i++)
-  {
-
-document.write("<div>" + "<h3>" + "Fast and Furious" + "</h3>" +
-    "<img src='https://www.denofgeek.com/wp-content/uploads/2016/11/harry-potter-movies.png?resize=768%2C432' >" +
-    "</div>"
-  )
-
-  }
-  
 
 
 }
