@@ -21,7 +21,10 @@ Data types :
 
 - strings : "ahmad", 'aknnadkandka !@# 1233'
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6721e2c9bf0e33f40b16fc1ad864bc986eb9decb
 variables: 
 
 - to store anything in them 
@@ -161,6 +164,7 @@ prompt()= > it will take input and we can assign to a variable
 
 
 
+<<<<<<< HEAD
 
 
 Truth table
@@ -203,12 +207,15 @@ while
 
 we don't knw how any times the code will run but for sure weknow it will keep running as long as the condition is true 
 
+=======
+>>>>>>> 6721e2c9bf0e33f40b16fc1ad864bc986eb9decb
 */
 var name = prompt("what is your name?")
 
 alert("welcome to Fantacy movies website " + name)
 
 var favMovie = prompt("what is your fav movies from these (harry potter, fast and furious , forrest gump )?")
+
 
 
 while (favMovie != "harry potter" && favMovie != "fast and furious" && favMovie != "forrest gump") {
@@ -252,14 +259,12 @@ else if (favMovie == "forrest gump") {
   document.write("<p>" + "great thing you love forrest gump movies becuase we have it here so you can watch it" + "</p>")
 }
 
-else {
-  alert("sorry we don't have this movie")
-}
 
 
 // var num = prompt("guess a number?")
 
 // console.log(typeof(num))
+
 
 
 //for loop
@@ -309,4 +314,5 @@ else {
 //   console.log("hello")
 //   x++
 // }
+
 
